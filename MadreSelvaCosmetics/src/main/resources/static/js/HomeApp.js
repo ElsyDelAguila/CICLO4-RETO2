@@ -1,4 +1,4 @@
-const url_link = "http://129.151.98.159:8080/api/user/";
+const url_link = "http://129.151.124.157:8080/api/user/";
 var sesionInit=false;
 window.onload = function() {
     sesionInit=false;

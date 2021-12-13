@@ -7,7 +7,7 @@ $("#login").click(function(){
             password: $("#contrasena").val()
         };
         $.ajax({
-            url:"http://129.151.98.159:8080/api/user/"+data.email+"/"+data.password,
+            url:"http://129.151.124.157:8080/api/user/"+data.email+"/"+data.password,
             method: "GET",
             dataType: "json",
             success: function(response){
@@ -30,7 +30,7 @@ $("#registrar").click(function(){
                 name: $("#userRegistro").val()
             };
             $.ajax({
-                url:"http://129.151.98.159:8080/api/user/new",
+                url:"http://129.151.124.157:8080/api/user/new",
                 method: "POST",
                 dataType: "json",
                 data: JSON.stringify(datos),

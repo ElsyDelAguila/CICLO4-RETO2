@@ -1,5 +1,5 @@
-const url_link = "http://129.151.98.159:8080/api/user/";
-const url_linkProducts = "http://129.151.98.159:8080/api/hairproducts/";
+const url_link = "http://129.151.124.157:8080/api/user/";
+const url_linkProducts = "http://129.151.124.157:8080/api/hairproducts/";
 
 function getUser(){
     var userEmail = localStorage.getItem('userEmail');
